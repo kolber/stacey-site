@@ -1,1 +1,17 @@
 title: Variable Types
+-
+content:
+
+Variable Types      {#intro}
+==============
+
+There are three type of variables within stacey’s templating system:
+
+<strong><a href="./variables/"><em>@</em>variables</strong></a>
+:   constructed from the contents of the page’s .txt file and supplemented by stacey (ie. _&#64;page_name_).
+
+<strong><a href="./collections/"><em>$</em>collections</a></strong>
+:   collections of assets or pages that can be looped over (ie. _$children_).
+
+<strong><a href="./partials/"><em>:</em>partials</strong></a>
+:   shorthand reference to include files from within the _/templates/partials_ directory (ie. _&#58;navigation_).

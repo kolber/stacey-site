@@ -1,1 +1,60 @@
 title: &#58;partials
+-
+content:
+
+Partials      {#intro}
+========
+
+Partial templates separate out re-usable and repeatable blocks of html into their own files. They sit within the _/templates/partials_ folder.
+
+Stacey essentially flattens the folder structure within /templates/partials, so you can place your partial files within whatever subfolders make sense to you. This also means that you cannot have two templates with the same name, even if they sit within different folders, or have different file extensions.
+
+Partials can be referenced within a template by using a _:_ followed by the filename of the partial template.  
+<i markdown="1">ie. _&#58;images_ will be a reference to the _/templates/partials/assets/images.html_ partial.</i>
+
+As with templates, partials do not need to be .html files. Stacey will recognise the following formats: _.html_, _.json_, _.xml_, _.atom_, _.rss_, _.rdf_ & _.txt_
+
+### Partial Nesting     {#partial-nesting}
+
+Partials references can also be nested within other partials. So, an example _&#58;media_ partial could contain:
+
+**/templates/partials/assets/media.html**
+<pre>
+i&#102; $images do
+  <em>&#58;images</em>
+endif
+
+i&#102; $video do
+  <em>&#58;video</em>
+endif
+</pre>
+
+Where _&#58;images_ & _&#58;video_ are references to other partial files.
+
+### Recursive Partials      {#recursive-partials}
+
+Partials can also include references to themselves, allowing you to recurse through nested objects (ie. walking down a tree of $children).
+
+A more elegant solution to the nested [foreach loop][] example would be to split the code into two partials and take advantage of recursion within the _&#58;children_ partial.
+
+**/templates/partials/navigation/navigation.html**
+<pre>
+&lt;ol id=&quot;navigation&quot;&gt;
+  <em>&#102;oreach $root do</em>
+    &lt;li&gt;&lt;a href=&quot;&#64;url&quot;&gt;&#64;page_name&lt;/a&gt; <em>&#58;children</em> &lt;/li&gt;
+  <em>endforeach</em>
+&lt;/ol&gt;
+</pre>
+
+**/templates/partials/navigation/children.html**
+<pre>
+<em>i&#102; $children do</em>
+  &lt;ol&gt;
+    <em>&#102;oreach $children do</em>
+      &lt;li&gt;&lt;a href=&quot;&#64;url&quot;&gt;&#64;page_name&lt;/a&gt; <em>&#58;children</em> &lt;/li&gt;
+    <em>endforeach</em>
+  &lt;/ol&gt;
+<em>endif</em>
+</pre>
+
+[foreach loop]: /documentation/editing-templates/templating-language/#foreach-nesting
