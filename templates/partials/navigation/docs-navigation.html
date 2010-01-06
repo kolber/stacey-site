@@ -1,0 +1,14 @@
+get '/documentation'
+<li><a href="@url">Overview</a></li>
+foreach $children do
+<li>
+  <a href="@url">@title</a>
+  if $children do
+  <ol>
+    foreach $children do
+    <li><a href="@url">@title</a></li>
+    endforeach
+  </ol>
+  endif
+</li>
+endforeach

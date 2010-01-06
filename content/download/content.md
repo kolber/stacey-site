@@ -1,0 +1,12 @@
+You can follow [staceyapp on Twitter][] or subscribe to [the blog][] to be notified of major updates.
+
+#### &rarr;   {#download}
+:download
+=========
+
+#### License
+Stacey is released under the [MIT License][].
+
+[staceyapp on Twitter]: http://twitter.com/staceyapp
+[the blog]: http://news.staceyapp.com
+[MIT License]: http://www.opensource.org/licenses/mit-license.php

@@ -1,0 +1,49 @@
+Template Editing     {#intro}
+================
+
+Stacey’s templates allow a mix of standard markup types & simple dynamic variables to help create your final pages.
+
+They end up looking something like this:
+
+<pre>
+...
+&lt;h1 class=&quot;col three&quot;&gt;
+  <em>@name</em>
+  &lt;strong&gt;<em>@profession</em>&lt;/strong&gt;
+&lt;/h1&gt;
+&lt;em class=&quot;col three&quot;&gt;<em>@email</em>&lt;/em&gt;
+&lt;hr&gt;
+<em>&#58;navigation</em>
+&lt;div id=&quot;content&quot; class=&quot;col eight&quot;&gt;
+  <em>&#58;category_lists</em>
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p class=&quot;col five&quot;&gt;&amp;copy; Copyright <em>@name</em> <em>@current_year</em>&lt;/p&gt;
+...
+</pre>
+
+All of the templates sit within the _/templates_ folder. Partial templates sit within _/templates/partials_, they are used for looping through collections of objects such as the images within a folder or sets of navigation.
+![Screenshot of /templates folder](/images/templates-list.png)
+
+Read more about [how partials work][].
+
+### Template assignment     {#template-assignment}
+
+Templates are assigned to pages based off the name of the .txt file within the page’s folder. If no matches are found, stacey will return an error.
+
+<i>ie. if the _/content/2.contact-me/_ folder’s .txt file is named _contact-page.txt_, it will look for a matching template within the /templates/ folder, finding one named _contact-page.html_.</i>
+
+### Template types      {#template-types}
+Templates do not need to be .html files. Stacey will recognise and serve correct content-type headers for templates with the following extensions:  
+_.html_, _.json_, _.xml_, _.atom_, _.rss_, _.rdf_ & _.txt_
+
+Public folder      {#public-folder}
+-------------
+
+Any files (and folders) within the <em>public</em> folder will be served from the root of your website.
+
+<i>ie. _/public/docs/css/screen.css_ will be accessible from _http://yourdomain.com/docs/css/screen.css_.</i>
+
+The public folder is generally where you store your css, javascript & any assets used within the templates.
+
+[how partials work]: /documentation/variable-types/partials/

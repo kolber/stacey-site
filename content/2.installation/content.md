@@ -1,0 +1,24 @@
+Installation
+=============
+
+<i>If you are running OSX 10.5 or later, you can run stacey locally.  
+  See [Running stacey on OSX][].</i>
+
+1.  Log into your server using the FTP details provided by your host.
+
+2.  Copy all the files from the stacey folder into the web directory on your server.
+
+3.  Rename the _htaccess_ file to _.htaccess_.<br>Your web directory should now look like this.
+    ![Screenshot of the expected folder list (via ftp)](/images/ftp-parent-list.png)
+
+5.  Go into the <em>/app</em> folder and change the permissions on the <em>_cache</em> folder to be <em>777</em> (completely public). 
+    ![Screenshot of the /app folder (via ftp)](/images/ftp-app-list.png)
+
+6.  Visit your website and you should see stacey running with all its default content:
+    ![Screenshot of stacey's default templates](/images/stacey-view.png)
+
+If things aren’t displaying correctly, you can visit the [stacey support forums][] for help. If everything looks like the screenshot above, then you probably want to read about [creating pages][] next.
+
+[Running stacey on OSX]: /tutorials/running-on-osx/
+[stacey support forums]: http://getsatisfaction.com/stacey
+[creating pages]: /documentation/creating-pages/
