@@ -26,6 +26,6 @@ Because reading a file system can become slow on larger sites, stacey uses a com
 
 ### It’s small    {#lightweight}
 
-The entire codebase is around 600 lines of code, so it shouldn’t be too hard to read through, get an idea of how it works & extend for your own purposes.
+The entire stacey codebase is around 550 lines of code, so it shouldn’t be too hard to read through, get an idea of how it works & extend for your own purposes.
 
 The project is maintained over at _<http://github.com/kolber/stacey>_, so pick through the code, suggest improvements, or fork it & fix things yourself.
