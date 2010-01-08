@@ -39,6 +39,7 @@ li p { margin: 0px 0px 8px 0px; }
 li i { margin: 0px 0px 6px 0px; }
 li i + p { margin: 10px 0px 10px 0px; }
 li img { margin: 6px 0px 10px 0px; }
+li pre { margin: 6px 0px 6px -11px; }
 
 dl { clear: both; width: 580px; overflow: hidden; margin: 0px 0px 8px 20px; }
 dl dt { width: 125px; margin: 0px 5px 12px 0px; float: left; }
