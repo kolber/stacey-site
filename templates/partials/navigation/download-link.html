@@ -1,5 +1,6 @@
-get '/download'
-<li class="download">
-  <a href="@url"><em>@title</em></a><br>
-  foreach $zip do <i>@name</i> endforeach
-</li>
+get '/download' do
+  <li class="download">
+    <a href="@url"><em>@title</em></a><br>
+    foreach $zip do <i>@name</i> endforeach
+  </li>
+end
