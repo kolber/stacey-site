@@ -5,7 +5,7 @@ content:
 Overview                   {#intro}
 ========
 
-Stacey was devised as a simple framework for extending static html websites. It is essentially a regular-expression-based templating system which uses a file system datastore rather than a traditional relational database.
+Stacey was devised as a simple framework for extending static html websites. It is essentially a dynamic templating system which ties into a file system datastore rather than a traditional relational database.
 
 The stacey project is based around two simple ideals:
 
@@ -28,4 +28,4 @@ Because reading a file system can become slow on larger sites, stacey uses a com
 
 The entire stacey codebase is around 550 lines of code, so it shouldn’t be too hard to read through, get an idea of how it works & extend for your own purposes.
 
-The project is maintained over at _<http://github.com/kolber/stacey>_, so pick through the code, suggest improvements, or fork it & fix things yourself.
+The project is maintained over at _<http://github.com/kolber/stacey>_, so feel free to pick through the code, suggest improvements, or fork it & fix things yourself.

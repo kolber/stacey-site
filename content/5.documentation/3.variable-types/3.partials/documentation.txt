@@ -57,4 +57,6 @@ A more elegant solution to the nested [foreach loop][] example would be to split
 <em>endif</em>
 </pre>
 
+Note that the _children.html_ partial includes a reference to itself, which means it will keep including itself (within itself) until the if statement no longer returns true.
+
 [foreach loop]: /documentation/editing-templates/templating-language/#foreach-nesting
