@@ -22,14 +22,14 @@ Replace the highlighted data with your own details.
 
 All of your .txt files should be encoded using UTF-8. In addition to ensuring no strange characters are inserted which could break stacey’s rendering engine, this will also allow you to use special characters such as _&ouml;_, _&mdash;_ or double-byte characters such as _照_ or _ラ_.
 
-Any decent text editor will give you the options to edit and save your text files as UTF-8, so google should be able to provide answers on how to do this with your editor of choice.
+Any decent text editor will give you the option to edit and save your text files as UTF-8, so google should be able to provide answers on how to do this with your editor of choice.
 
 You can read more about [text files][] & [UTF-8 encoding][] on Wikipedia.
 
 
 
 ### Editing content       {#editing-content}
-Each folder which is to be displayed as a page should have a _.txt_ file inside it (even if this text file is empty). The name of the .txt file should match up with a file in the _/templates_ folder, as this is how you select which template to use for each page.
+Each folder which is to be displayed as a page should have a _.txt_ file inside it (even if this text file is empty). The name of the .txt file should match up with a file in the _/templates_ folder, as this is how stacey knows which template to use for each page.
 ![Screenshot of /content folder with 'project.txt' selected](/images/projects-contents-file.png)
 ![Screenshot of /templates folder with 'project.html' selected](/images/template-selected.png)
 
@@ -41,7 +41,8 @@ Each folder which is to be displayed as a page should have a _.txt_ file inside 
 <pre>
 title: About Title
 &#45;
-content: Lorem ipsum.
+content: 
+Lorem ipsum.
 </pre>
 	</li>
 	<li>Two variables are extracted from the keys & values from within the .txt file: <em>&#64;title</em> & <em>&#64;content</em>. These will be available for use within the templates.</li>
@@ -51,15 +52,15 @@ content: Lorem ipsum.
 		<p>So this template code:</p>
 <pre>
 &lt;div id=&quot;main&quot;&gt;
-&lt;h1&gt;<em>&#64;title</em>&lt;/h1&gt;
-&lt;p&gt;<em>&#64;content</em>&lt;/p&gt;
+  &lt;h1&gt;<em>&#64;title</em>&lt;/h1&gt;
+  <em>&#64;content</em>
 &lt;/div&gt;
 </pre>
 	<p>becomes this html:</p>
 <pre>
 &lt;div id=&quot;main&quot;&gt;
-&lt;h1&gt;<em>About Title</em>&lt;/h1&gt;
-&lt;p&gt;<em>Lorem ipsum.</em>&lt;/p&gt;
+  &lt;h1&gt;<em>About Title</em>&lt;/h1&gt;
+  <em>&lt;p&gt;Lorem ipsum.&lt;/p&gt;</em>
 &lt;/div&gt;
 </pre>
 	</li>
@@ -77,12 +78,7 @@ The keys match up with variable markers in the template files which get replaced
 
 #### Keys {#keys}
 
-A key may only contain the following characters:  
-~~~~~~~~~~~~~~~~~
-abcdefghijklmnopqrstuvwxyz
-0123456789
-_
-~~~~~~~~~~~~~~~~~
+A key may only contain the following characters: `abcdefghijklmnopqrstuvwxyz0123456789_`
 
 Essentially, lowercase latin alphanumeric characters and underscores.  
 Or, for the more technically inclined, anything which can be matched by the following regular expression: _`/[a-z0-9_]+?:/`_
@@ -98,9 +94,11 @@ Lorem ipsum dolor...
 
 </pre>
 
-#### Separating Keys/values {#separating-keys-values}
+#### Separating Keys & Values {#separating-keys-values}
 
-Each value should be followed by a blank line containing only a hyphen character. The hyphen is optional on the last key/value pair.
+Each value should be followed by a line containing only a hyphen character (although the parser is forgiving of any accidental tabs or spaces).
+
+The hyphen is optional on the last key/value pair.
 
 <pre>
 title: 	The Test Project 1
@@ -108,7 +106,7 @@ title: 	The Test Project 1
 date: ...
 </pre>
 
-#### Values {#values}
+#### Empty Values {#values}
 
 If you want one of the values to be empty, leave a space after the colon.
 
@@ -118,14 +116,19 @@ title:<em> </em>
 date: ...
 </pre>
 
-Any values which contain a newline character will be parsed as markdown.
-Which means within the following example, <em>&#64;title</em> will come through as plain text, while <em>&#64;content</em> will be parsed as markdown.  
+### Markdown      {#markdown}
+
+Any values which contain one or more newline characters (line-breaks) will be parsed as _[Markdown][]_.
+
+Within the following example, &#64;title will come through as plain text, while &#64;content will be parsed as Markdown.  
+
 This:
 
 <pre>
 date: 2009, Jun—
 &#45;
 content:
+# Title
 Lorem ipsum.
 </pre>
 
@@ -134,12 +137,29 @@ will become:
 <pre>
 &#64;date =&gt; 2009, Jun—
 
-&#64;content =&gt; <em>&lt;p&gt;</em>Lorem ipsum.<em>&lt;/p&gt;</em>
+&#64;content =&gt; <em>&lt;h1&gt;</em>Title<em>&lt;/h1&gt;</em> <em>&lt;p&gt;</em>Lorem ipsum.<em>&lt;/p&gt;</em>
 </pre>
 
-### Markdown      {#markdown}
+Because Markdown ignores html, if you prefer, you can use standard markup in place of Markdown. The keys & values mentioned above could just as easily be written out as:
 
-x.
+<pre>
+date: 2009, Jun—
+&#45;
+content:
+&lt;h1&gt;Title&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum.&lt;/p&gt;
+</pre>
+
+#### Markdown References     {#markdown-references}
+
+Stacey uses _[PHP Markdown Extra][]_ which is a php-specific version of Markdown. It also adds some of its own functionality, such as fenced code blocks and header ids, so you should refer to its documentation as well as that of the original Markdown.
+
+- [Markdown Documentation][]
+- [PHP Markdown Extra Documentation][]
 
 [text files]: http://en.wikipedia.org/wiki/Text_file
 [UTF-8 encoding]: http://en.wikipedia.org/wiki/UTF-8
+[Markdown]: http://daringfireball.net/projects/markdown/
+[Markdown Documentation]: http://daringfireball.net/projects/markdown/syntax/
+[PHP Markdown Extra]: http://michelf.com/projects/php-markdown/extra/
+[PHP Markdown Extra Documentation]: http://michelf.com/projects/php-markdown/extra/
