@@ -32,8 +32,14 @@ These are created for each page within the site.
 **&#64;slug**
 :   Outputs the slug of the current page (ie. _project-1_).
 
-**&#64;is_current_page**
+**&#64;is_current**
 :   Returns true if _&#64;permalink_ matches the server’s request uri.
+
+**&#64;is_first**
+:   Returns true if current page is the first in its collection.
+
+**&#64;is_last**
+:   Returns true if current page is the last in its collection.
 
 **&#64;page_name**
 :   Outputs the name of the current page.  
