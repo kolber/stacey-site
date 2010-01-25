@@ -81,10 +81,10 @@ Stacey knows how to construct a few asset types by default. Each type will be as
 :  The relative path to this file from the current page. (ie. )
 
 **&#64;small**
-:   The relative path to a file matching the name & filetype of the current file, with an \_sml suffix (if such a file exists). <i>ie. an image named _portrait.jpg_ would have an &#64;small var of _portrait_sml.jpg_</i>
+:   The relative path to a file matching the name & filetype of the current file, with an \_sml suffix (if such a file exists). <i>ie. an image named <em>portrait.jpg</em> would have an &#64;small var of <em>portrait_sml.jpg</em></i>
 
 **&#64;large**
-:   The relative path to a file matching the name & filetype of the current file, with an \_lge suffix (if such a file exists). <i>ie. an image named _portrait.jpg_ would have an &#64;large var of _portrait_lge.jpg_</i>
+:   The relative path to a file matching the name & filetype of the current file, with an \_lge suffix (if such a file exists). <i>ie. an image named <em>portrait.jpg</em> would have an &#64;large var of <em>portrait\_lge.jpg</em></i>
     
     
 
