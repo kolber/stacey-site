@@ -2,30 +2,39 @@ title: Documentation
 -
 content:
 
-Overview                   {#intro}
+Overview      {#intro}
 ========
 
-Stacey was devised as a simple framework for extending static html websites. It is essentially a dynamic templating system which ties into a file system datastore rather than a traditional relational database.
+Stacey is a framework for building simple dynamic html websites.
 
-The stacey project is based around two simple ideals:
+The project is based around two core ideals:
 
-1.  to remove the requirement of html knowledge to manage site content
-2.  to remove the requirement of php knowledge to edit html templates.
+1.  Separating textual content & assets from your html templates, and
+2.  Removing the ugliness of php logic from your presentational markup.
 
-These two ideals map directly to the <em>/content</em> and <em>/template</em> folders respectively.
+These two ideals map directly to the <em>/content</em> and <em>/templates</em> folders respectively.
 
-This is achieved through three core components, a text file parser, a template parser & the file system datastore. These fit together to make an extremely flexible and powerful content management system.
+Stacey handles all the dynamic parts like creating breadcrumbs, navigation lists & Atom feeds and including images, videos & assets.
+It includes a simple [templating language] and [partial system] so you have complete control over every piece of markup that is generated.
 
-Because stacey uses the file system to store and manage data, it means you are able to build & deploy sites extremely quickly. Additionally, as php is so common, stacey-based sites can be deployed very cost-effectively and to pretty much any standard hosting package.
+There are a [few simple portfolio-style templates] provided to give an idea of how the system works, but don’t let that mislead you, stacey is flexible enough to build sites of significant complexity.
+
+### Deployment
+
+Because stacey uses the file system to store and manage data, it means you are able to build & deploy sites extremely quickly. Additionally, as php hosting is so common, stacey-based sites can be deployed very cost-effectively and to pretty much any standard hosting package.
 
 
-### It Caches                 {#caching}
+### Caching     {#caching}
 
-Because reading a file system can become slow on larger sites, stacey uses a combination of file-based caching & e-tag headers to ensure pages are always loaded as fast as possible. The caching system doesn’t use an arbitrary time-based cache expiry, instead it relies on a system which only rebuilds the cache when something has changed.
+Because reading a file system can become slow on larger sites, stacey uses a combination of file-based caching & e-tag headers to ensure pages are always loaded as quickly as possible. The caching system is smart enough to only rebuild the cache when the content has been updated.
 
 
-### It’s small    {#lightweight}
+### 600 lines      {#lightweight}
 
-The entire stacey codebase is around 550 lines of code, so it shouldn’t be too hard to read through, get an idea of how it works & extend for your own purposes.
+The entire stacey codebase is around 600 lines of code, so it shouldn’t be too hard to read through, get an idea of how it works & extend for your own purposes.
 
-The project is maintained over at _<http://github.com/kolber/stacey>_, so feel free to pick through the code, suggest improvements, or fork it & fix things yourself.
+The project is maintained over at _<http://github.com/kolber/stacey>_, so feel free to pick through the code, suggest improvements or fork it and fix things yourself.
+
+[templating language]: /documentation/editing-templates/templating-language/
+[partial system]: /documentation/variable-types/partials/
+[few simple portfolio-style templates]: /download-templates/

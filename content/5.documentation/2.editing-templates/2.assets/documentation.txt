@@ -40,7 +40,7 @@ Each of these can be looped over within your templates or partials in the same w
 Asset Collections   {#asset-collections}
 -----------------
 
-You can also create specific, named collections of assets. Stacey will recognise any folders beginning with an underscore as asset collections. These collections can be referenced using the name of the folder prefixed with a _$_ character.
+You can also create specific, named, collections of assets. Stacey will recognise any folders beginning with an underscore as asset collections. These collections can be referenced using the name of the folder prefixed with a _$_ character.
 
 ie. this directory structure:
 ![An example file listing for asset collections](/images/asset-collection-list.png)
