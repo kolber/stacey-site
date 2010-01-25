@@ -9,12 +9,12 @@ Stacey is a framework for building simple dynamic html websites.
 
 The project is based around two core ideals:
 
-1.  Separating textual content & assets from your html templates, and
-2.  Removing the ugliness of php logic from your presentational markup.
+1. Separating textual content & assets from your html, and
+2. Keeping ugly php-style logic out of your templates
 
-These two ideals map directly to the <em>/content</em> and <em>/templates</em> folders respectively.
+These map directly to the _/content_ and _/templates_ folders respectively.
 
-Stacey handles all the dynamic parts like creating breadcrumbs, navigation lists & Atom feeds and including images, videos & assets.
+Stacey handles all the dynamic parts like creating breadcrumbs, navigation lists & shared content and linking images & assets.
 It includes a simple [templating language] and [partial system] so you have complete control over every piece of markup that is generated.
 
 There are a [few simple portfolio-style templates] provided to give an idea of how the system works, but don’t let that mislead you, stacey is flexible enough to build sites of significant complexity.
