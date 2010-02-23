@@ -110,15 +110,17 @@ cd /Library/WebServer/Documents
 </pre>
     <p markdown="1">Then hit _enter_ and type the following command:</p>
 <pre>
-mv htaccess .htaccess
+cp htaccess .htaccess
 </pre>
-    <p markdown="1">and hit _enter_ again.</p>
+    <p markdown="1">and hit _enter_ again.<br>
+      This will make a copy of your _htaccess_ file and rename it to _.htaccess_</p>
 		<p markdown="1"><i>Terminal sits within your _/Applications/Utilities_ folder.</i></p>
 	</li>
 	<li markdown="1">
 		<p markdown="1">Now if you open up a browser and visit _http://localhost/_, you should see your local copy of stacey running.</p>
     ![A screengrab showing stacey running from http://localhost](/images/osx/14-stacey-running.png)
 		<p markdown="1">You can edit the files in the _/Library/WebServer/Documents_ folder directly and then view the output at _http://localhost/_.</p>
+	<p markdown="1">One thing to keep in mind, once you finish your site and copy it over to your live server, you will need to rename your _htaccess_ file to _.htaccess_ again. Within your ftp program you should be able to rename it as you would any other file. You won't need to use Terminal.</p>
 	<p markdown="1">You have already completed the installation step, so you can jump straight into reading about [creating pages][] with stacey.</p>
 	</li>
 </ol>
