@@ -23,7 +23,6 @@ If you’re using stacey, send me an [email][].
 - <http://dmitry-ivanov.com>
 - _<http://jerrybuttles.com>_
 - <http://daiwainsatsu.com>
-- _<http://greyspace.com.au>_
 - _<http://nodedesign.com.au>_
 - <http://lauraandresen.no>
 - <http://rubendaas.nl>
