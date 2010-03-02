@@ -50,7 +50,7 @@ will create the following asset collections:
 <pre>
 <em>$_logos</em> => array(
   './content/about/_logos/logo1.gif',
-  './content/about/_logos/logo2.gif'
+  './content/about/_logos/logo2_anim.mov'
 )
 
 <em>$_thumbnails</em> => array(
@@ -59,6 +59,14 @@ will create the following asset collections:
   './content/about/_thumbnails/thumb3.jpg',
   './content/about/_thumbnails/thumb4.jpg'
 )
+</pre>
+
+These asset collections can then be looped over in the same way as the _$images_ collection.
+ie.
+<pre>
+foreach <em>$_logos</em> do
+  &lt;li&gt;&lt;img src=&quot;<em>&#64;url</em>&quot; alt=&quot;<em>&#64;name</em>&quot;&gt;&lt;/li&gt;
+endforeach
 </pre>
 
 Asset collection folders will not show up within any other collections (such as $siblings or $children).
