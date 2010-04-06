@@ -13,29 +13,32 @@ For example, this page:
 will create the following collections:
 
 <pre>
-<em>$pdf</em> => array(
-  './content/about/pdf-file.pdf'
-)
+<em>$pdf</em>: ['pdf-file.pdf' => Asset]
 
-<em>$mp3</em> => array(
-  './content/about/mp3-file-1.mp3',
-  './content/about/mp3-file-2.mp3'
-)
+<em>$mp3</em>: ['mp3-file-1.mp3' => Asset
+       'mp3-file-2.mp3' => Asset]
 
-<em>$html</em> => array(
-  './content/about/youtube-embed.html'
-)
+<em>$html</em>: ['youtube-embed.html' => HTML]
 
-<em>$doc</em> => array(
-  './content/about/word-document.doc'
-)
+<em>$doc</em>: ['word-document.doc' => Asset]
 
-<em>$jpg</em> => array(
-  './content/about/01.jpg'
-)
+<em>$jpg</em>: ['01.jpg' => Image]
 </pre>
 
-Each of these can be looped over within your templates or partials in the same way as the _$images_ or _$video_ collections.
+Each of these can be looped over within your templates or partials in the same way as the _$images_ or _$video_ collections.  
+ie.
+
+<pre>
+foreach <em>$mp3</em> do
+  &lt;object height="50" width="200"&gt;
+    &lt;param name="kioskmode" value="true"&gt;
+    &lt;param name="src" value="<em>&#64;url</em>"&gt;
+    &lt;param name="autoplay" value="false"&gt;
+    &lt;param name="controller" value="true"&gt;
+    &lt;embed height="50" src="<em>&#64;url</em>" type="video/quicktime" width="200" controller="true" autoplay="false" kioskmode="true"&gt;
+  &lt;/object&gt;
+endforeach
+</pre>
 
 Asset Collections   {#asset-collections}
 -----------------
@@ -48,20 +51,16 @@ ie. this directory structure:
 will create the following asset collections:
 
 <pre>
-<em>$_logos</em> => array(
-  './content/about/_logos/logo1.gif',
-  './content/about/_logos/logo2_anim.mov'
-)
+<em>$_logos</em>: ['logo1.gif' => Image
+          'logo2.mov' => Video]
 
-<em>$_thumbnails</em> => array(
-  './content/about/_thumbnails/thumb1.jpg', 
-  './content/about/_thumbnails/thumb2.jpg',
-  './content/about/_thumbnails/thumb3.jpg',
-  './content/about/_thumbnails/thumb4.jpg'
-)
+<em>$_thumbnails</em>: ['thumb1.jpg' => Image
+               'thumb2.jpg' => Image
+               'thumb3.jpg' => Image
+               'thumb4.jpg' => Image]
 </pre>
 
-These asset collections can then be looped over in the same way as the _$images_ collection.
+These asset collections can then be looped over in the same way as the _$images_ collection.  
 ie.
 <pre>
 foreach <em>$_logos</em> do
