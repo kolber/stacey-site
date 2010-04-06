@@ -1,0 +1,20 @@
+title: Running on OSX
+-
+content:
+Enabling clean urls      {#intro}
+===================
+
+To ease the setup process, by default stacey uses query-based urls (which look like _http://yourdomain.com/?/page-name/_). 
+If you prefer, you can enable clean urls (ie. _http://yourdomain.com/page-name/_) by following the steps below.
+
+<i>Your server will require support for _.htaccess_ files & [mod_rewrite][] (which is normally enabled by default).
+Contact your host if you’re not sure.</i>
+
+1. In your main stacey folder (the one containing the index.php file), rename your _htaccess_ file to _.htaccess_.  
+   The end result should look like this:
+   ![Screenshot of the expected folder list (via ftp)](/images/ftp-parent-list.png)
+
+2. That's it. Clean urls are now enabled.  
+   You can test they are working correctly by visiting http://yourdomain.com/projects/
+
+[mod_rewrite]: http://httpd.apache.org/docs/1.3/mod/mod_rewrite.html

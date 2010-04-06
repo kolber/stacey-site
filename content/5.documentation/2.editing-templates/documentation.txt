@@ -44,10 +44,11 @@ _.html_, _.json_, _.xml_, _.atom_, _.rss_, _.rdf_ & _.txt_
 Public folder      {#public-folder}
 -------------
 
-Any files (and folders) within the <em>public</em> folder will be served from the root of your website.
+If [clean urls][] are enabled, any files (and folders) within the <em>public</em> folder will be served from the root of your website.
 
 <i>ie. _/public/docs/css/screen.css_ will be accessible from _http://yourdomain.com/docs/css/screen.css_.</i>
 
 The public folder is generally where you store your css, javascript & any assets used within the templates.
 
 [how partials work]: /documentation/variable-types/partials/
+[clean urls]: /tutorials/enable-clean-urls/

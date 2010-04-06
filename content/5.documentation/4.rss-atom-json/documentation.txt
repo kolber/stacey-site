@@ -25,4 +25,6 @@ So, if you wanted to switch out Atom for the RSS2 format, your _/templates/feed.
 &lt;/rss&gt;
 </pre>
 
-Additionally, stacey creates file extension shortcuts for all the file types listed above. This means rather than having to point to http://yourdomain.com<em>/feed/</em>, you could shortcut this to http://yourdomain.com<em>/feed.atom</em>.
+Additionally, if [clean urls][] are enabled, stacey creates file extension shortcuts for all the file types listed above. This means rather than having to point to http://yourdomain.com<em>/feed/</em>, you could shortcut this to http://yourdomain.com<em>/feed.atom</em>.
+
+[clean urls]: /tutorials/enable-clean-urls/

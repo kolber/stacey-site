@@ -35,7 +35,7 @@ Each folder which is to be displayed as a page should have a _.txt_ file inside 
 
 ### How variables are created:  {#how-variables-are-created}
 <ol>
-	<li>Browser hits <em>http://yourdomain.com/about/</em>.</li>
+	<li>Browser hits <em>http://yourdomain.com/?/about/</em>.</li>
 	<li>
 		<p>Stacey reads the appropriate content file <em>/content/3.about/content.txt</em>.</p>
 <pre>
@@ -115,6 +115,13 @@ title:<em> </em>
 &#45;
 date: ...
 </pre>
+
+### &#64;path
+
+Additionally, the _&#64;path_ variable is exposed to your content files, which is useful for linking to assets within the current folder.  
+It will output the relative path to the containing folder of the current page.
+
+<i>ie. <em>../content/4.projects/10.project-1/</em></i>
 
 ### Markdown      {#markdown}
 

@@ -104,6 +104,7 @@ Allow from all
     ![System Preferences / Sharing screenshot](/images/osx/11-web-sharing-on.png)
 	</li>
 	<li>
+	  <p markdown="1">If you want to enable [clean urls](/tutorials/enable-clean-urls) continue below, otherwise, you can skip this step.</p>
 		<p markdown="1">You can&rsquo;t rename your htaccess file to .htaccess using the Finder, so you will need to open up _Terminal_ and type the following two commands:</p>
 <pre>
 cd /Library/WebServer/Documents

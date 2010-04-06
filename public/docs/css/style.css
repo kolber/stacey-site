@@ -109,6 +109,7 @@ ol#navigation + p { margin: 0px 0px 20px 20px; }
 ol#requirements { margin: 0px 0px 45px; }
 ol#requirements li, ol#subnav li { margin: 0px; color: #999; }
 ol#requirements p, ol#subnav p { margin: 0px; color: #666; }
+ol#requirements li.optional p { color: #999; }
 
 ol#subnav { margin: 0px 0px 20px; }
 ol#subnav li { margin: 0px 0px 3px; }

@@ -12,6 +12,10 @@ Pages are listed in reverse-numeric order using a numbered prefix on the folder 
 
 <i>ie. a folder named: _1.project-name-10_ will be accessed via http://yourdomain.com/projects/_project-name-10_.</i>
 
+If you have [clean urls][] disabled (which they are by default) then the url will be prepended with a _?/_.
+
+<i>ie. a folder named: _1.project-name-10_ will be accessed via http://yourdomain.com/<em>?/</em>projects/project-name-10.</i>
+
 If you leave the numbered prefix off a folder, then the page will not show up in any collections ($siblings, $children, etc.), but will still be accessible by its url. This is useful for creating ‘floating’ pages.
 
 When naming your folders, rather than using underscores (_), you should use hyphens (-) to separate words.
@@ -56,5 +60,6 @@ img.project-thumb { ... <em>display: inline;</em> }
 
 Your thumbnails can be any size you like, but on the default template are designed to be relatively small.
 
+[clean urls]: /tutorials/enable-clean-urls/
 [template]: /documentation/editing-templates/#template-assignment
 [handling other asset types]: /documentation/editing-templates/assets/
