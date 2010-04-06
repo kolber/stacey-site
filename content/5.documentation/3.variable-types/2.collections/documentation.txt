@@ -19,7 +19,10 @@ Stacey provides collections of related pages and assets which can be [looped ove
 :   Will list the direct ancestor relative to the current page.
 
 **$siblings**
-:   Will list any pages sitting at the same level as the current page. This collection will also include the current page.
+:   Will list any pages sitting at the same level as the current page. This collection does not include the current page.
+
+**$siblings_and_self**
+:   Will list any pages sitting at the same level as the current page. This collection includes the current page.
 
 **$next_sibling**
 :   Constructs a reference to the next page sitting at the same level as the current page (in reverse-numeric order).
