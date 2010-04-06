@@ -88,11 +88,31 @@ Stacey knows how to construct a few asset types by default. Each type will be as
 :  The relative path to this file from the current page. (ie. )
 
 **&#64;small**
-:   The relative path to a file matching the name & filetype of the current file, with an \_sml suffix (if such a file exists). <i>ie. an image named <em>portrait.jpg</em> would have an &#64;small var of <em>portrait_sml.jpg</em></i>
+:   The relative path to a file matching the name & filetype of the current file, with an \_sml suffix (if such a file exists).   
+    <i>ie. an image named <em>portrait.jpg</em> would have an &#64;small var of <em>portrait_sml.jpg</em></i>
 
 **&#64;large**
-:   The relative path to a file matching the name & filetype of the current file, with an \_lge suffix (if such a file exists). <i>ie. an image named <em>portrait.jpg</em> would have an &#64;large var of <em>portrait\_lge.jpg</em></i>
+:   The relative path to a file matching the name & filetype of the current file, with an \_lge suffix (if such a file exists).     
+    <i>ie. an image named <em>portrait.jpg</em> would have an &#64;large var of <em>portrait\_lge.jpg</em></i>
+
+**&#64;width**
+:   The width of the current image.
+    <i>ie. 560</i>
     
+**&#64;height**
+:   The height of the current image.
+    <i>ie. 400</i>
+    
+<i>The following variables are read from [IPTC metadata](#iptc-meta) attached to the image.</i>
+
+**&#64;title**
+:   The 'title' IPTC metadata (field 005).
+    
+**&#64;description**
+:   The 'description/caption' IPTC metadata (field 120).
+    
+**&#64;keywords**
+:   The 'keywords' IPTC metadata (field 025).
     
 
 ### Video  
@@ -113,11 +133,13 @@ Stacey knows how to construct a few asset types by default. Each type will be as
 **&#64;height**
 :   The height of the current video (pulled from the name of the file – ie. 300x<em>150</em>.mov).
 
+
+
 ### HTML
 (_.html_, _.htm_)
 
 **&#64;name**
-:   The name of the current video. This is constructed by converting the filename into sentence-text (ie. _1.my-youtube-video.html_ becomes _My youtube video_).
+:   The name of the current file. This is constructed by converting the filename into sentence-text (ie. _1.my-youtube-video.html_ becomes _My youtube video_).
 
 **&#64;file_name**
 :   The filename of the current file.
@@ -132,12 +154,18 @@ Stacey knows how to construct a few asset types by default. Each type will be as
 (_.*_)
 
 **&#64;name**
-:   The name of the current video. This is constructed by converting the filename into sentence-text (ie. _1.my-resume.pdf_ becomes _My resume_).
+:   The name of the current file. This is constructed by converting the filename into sentence-text (ie. _1.my-resume.pdf_ becomes _My resume_).
 
 **&#64;file_name**
 :   The filename of the current file.
 
 **&#64;url**
 :   The relative path to this file from the current page.
+
+### IPTC metadata   {#iptc-meta}
+
+The [IPTC metadata](http://www.iptc.org/cms/site/index.html?channel=CH0098) standard allows read/write metadata to be attached directly to image files (generally copyright information, author name and the like). Stacey will extract parts of this data and make it available to the templates.
+
+Currently the supported fields are _&#64;title_, _&#64;description_ & _&#64;keywords_. You can attach and edit IPTC metadata using a variety of programs — two free options are [CocoViewX](http://www.stalkingwolf.net/software/cocoviewx/) (for mac) & [Irfanview](http://www.irfanview.com/) (for windows)
 
 [collections]: /documentation/variable-types/collections/
