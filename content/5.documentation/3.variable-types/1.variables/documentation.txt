@@ -19,7 +19,7 @@ These are created for each page within the site.
 **&#64;root_path**
 :   Will output a relative path from the current page to the root of the site.
     <i>ie. in _/projects/project-name/_&#64;root\_path will contain _../../_.</i>
-    
+
 **&#64;thumb**
 :   Outputs the relative url to the thumbnail for this page (if one exists).
 
@@ -42,12 +42,15 @@ These are created for each page within the site.
 :   Returns true if current page is the last in its collection.
 
 **&#64;page_name**
-:   Outputs the name of the current page.  
-    This is constructed by converting the page’s slug into title-case text  
+:   Outputs the name of the current page.
+    This is constructed by converting the page’s slug into title-case text
     (ie. _test-project-1_ becomes _Test Project 1_).
 
 **&#64;siblings_count**
 :   The number of pages sitting at the same level as this page (ie. _12_).
+
+**&#64;child_count**
+:   The number of children below this page (ie. _12_).
 
 **&#64;index**
 :   The number of the current page, relative to the other pages sitting at the same level (ie. _5_).
@@ -59,11 +62,11 @@ These are created for each page within the site.
 :   Will output the domain name of the current site (ie. _staceyapp.com_).
 
 **&#64;base_url**
-:   Will output the domain name & folder path stacey is running from  
+:   Will output the domain name & folder path stacey is running from
     (ie. _staceyapp.com/stacey_).
 
 **&#64;site_updated**
-:   Will output the date the site was last edited in the [RFC 3339][] format  
+:   Will output the date the site was last edited in the [RFC 3339][] format
     (ie. _2009-12-12T17&#58;34&#58;23+11&#58;00_).
 
 **&#64;updated**
