@@ -49,7 +49,7 @@ These are created for each page within the site.
 **&#64;siblings_count**
 :   The number of pages sitting at the same level as this page (ie. _12_).
 
-**&#64;child_count**
+**&#64;children_count**
 :   The number of children below this page (ie. _12_).
 
 **&#64;index**
