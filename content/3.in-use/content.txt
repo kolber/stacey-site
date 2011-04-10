@@ -13,10 +13,40 @@ If you’re using stacey, send me an [email][].
 - <http://chaseandgalley.com>
 - <http://somethingsplendid.com>
 - <http://stuartgedd.es>
+- <http://oslodavis.com>
 
 —
 
 <ul>
+  <li><a href="http://kubicki.org">http://kubicki.org</a></li>
+  <li><em><a href="http://uriahgray.com">http://uriahgray.com</a></em></li>
+  <li><a href="http://infomongo.com">http://infomongo.com</a></li>
+  <li><a href="http://7sietes.com">http://7sietes.com</a></li>
+  <li><a href="http://somethingsimade.com">http://somethingsimade.com</a></li>
+  <li><em><a href="http://yagmourian.com/gaston">http://yagmourian.com/gaston</a></em></li>
+  <li><em><a href="http://nataliabuckley.co.uk">http://nataliabuckley.co.uk</a></em></li>
+  <li><a href="http://gmartynov.com">http://gmartynov.com</a></li>
+  <li><em><a href="http://alexandraknight.com.au">http://alexandraknight.com.au</a></em></li>
+  <li><em><a href="http://sarahcarp.com">http://sarahcarp.com</a></em></li>
+  <li><a href="http://pidgins.nl">http://pidgins.nl</a></li>
+  <li><em><a href="http://oplusa.nl">http://oplusa.nl</a></em></li>
+  <li><a href="http://suryagraf.com">http://suryagraf.com</a></li>
+  <li><a href="http://teratakistudio.com">http://teratakistudio.com</a></li>
+  <li><a href="http://nanettesullano.com">http://nanettesullano.com</a></li>
+  <li><em><a href="http://antonchu.com">http://antonchu.com</a></em></li>
+  <li><a href="http://martinml.com">http://martinml.com</a></li>
+  <li><em><a href="http://iphone.ricardo-vargas.com">http://iphone.ricardo-vargas.com</a></em></li>
+  <li><a href="http://builtbrooklyn.com">http://builtbrooklyn.com</a></li>
+  <li><em><a href="http://word-image.ch">http://word-image.ch</a></em></li>
+  <li><a href="http://manley.org/msm">http://manley.org/msm</a></li>
+  <li><em><a href="http://drewcapener.com">http://drewcapener.com</a></em></li>
+  <li><a href="http://klasnasman.se">http://klasnasman.se</a></li>
+  <li><a href="http://triptych-apps.com">http://triptych-apps.com</a></li>
+  <li><em><a href="http://nacholabs.com.ar">http://nacholabs.com.ar</a></em></li>
+  <li><a href="http://matthewterdich.com">http://matthewterdich.com</a></li>
+  <li><em><a href="http://baldur.com">http://baldur.com</a></em></li>
+  <li><em><a href="http://emokekerekes.com">http://emokekerekes.com</a></em></li>
+  <li><em><a href="http://stefan-koppelkamm.de">http://stefan-koppelkamm.de</a></em></li>
   <li><em><a href="http://castlesteps.com">http://castlesteps.com</a></em></li>
   <li><em><a href="http://utresnovky.cz">http://utresnovky.cz</a></em></li>
   <li><a href="http://work.florenz.co.uk">http://work.florenz.co.uk</a></li>
@@ -325,7 +355,6 @@ If you’re using stacey, send me an [email][].
 <li><a href="http://catherineh.ca">http://catherineh.ca</a></li> 
 <li><em><a href="http://notjustgraphic.com">http://notjustgraphic.com</a></em></li> 
 <li><em><a href="http://eggfreckles.net">http://eggfreckles.net</a></em></li> 
-<li><em><a href="http://nacholabs.com.ar">http://nacholabs.com.ar</a></em></li> 
 <li><a href="http://joaonovaes.com">http://joaonovaes.com</a></li> 
 <li><a href="http://lironm.com">http://lironm.com</a></li> 
 <li><a href="http://naomishon.com">http://naomishon.com</a></li> 
