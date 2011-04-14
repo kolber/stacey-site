@@ -75,4 +75,13 @@ These are created for each page within the site.
 **&#64;stacey_version**
 :   Will output the version of stacey you are running (ie. _2.0_).
 
+### Text-file variables   {#text-file-variables}
+These variables can be used from within your text files.
+
+**&#64;path**
+:   Will output the full file system path to the current page. (ie.&nbsp;_/content/3.about_)
+
+**&#64;bypass_cache**
+:   If set, this will bypass stacey's caching mechanisms for this page.
+
 [RFC 3339]: http://tools.ietf.org/html/rfc3339
