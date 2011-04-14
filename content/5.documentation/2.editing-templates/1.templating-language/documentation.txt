@@ -78,6 +78,22 @@ get "<em>/projects</em>" do
 end
 </pre>
 
+### Limiting foreach Loops    {#foreach-limiting}
+
+It is possible to limit foreach loops using a $collection[<em>start</em>:<em>limit</em>] syntax.  
+The array will essentially be sliced from the provided <em>start</em> until the <em>limit</em>. 
+
+The <em>start</em> &amp; <em>limit</em> are both optional. You could specify <em>$collection[:2]</em> to only list the first two items, or <em>$collection[2:]</em> to list all items except the first two.
+
+The following partial would list the third &amp; fourth items from the $children collection:
+<pre>
+&lt;ol id=&quot;navigation&quot;&gt;
+  <em>&#102;oreach $children[2:2] do</em>
+    &lt;li&gt;&lt;a href=&quot;&#64;url&quot;&gt;&#64;page_name&lt;/a&gt;&lt;/li&gt;
+  <em>endforeach</em>
+&lt;/ol&gt;
+</pre>
+
 ### Nesting foreach Loops     {#foreach-nesting}
 
 To give you the ability to pass through multiple levels of objects, foreach loops can also be nested within themselves (although using [recursive partials][] would be a more elegant solution).
