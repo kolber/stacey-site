@@ -123,6 +123,10 @@ It will output the relative path to the containing folder of the current page.
 
 <i>ie. <em>../content/4.projects/10.project-1/</em></i>
 
+### &#64;bypass_cache
+
+To bypass the cache for a specific page, you can add <em>bypass_cache: true</em> to its text file. Any requests to this page will no longer be cached. This is useful for pages which use randomised variables or php code.
+
 ### Markdown      {#markdown}
 
 Any values which contain one or more newline characters (line-breaks) will be parsed as _[Markdown][]_.
