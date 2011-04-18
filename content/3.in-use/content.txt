@@ -14,10 +14,13 @@ If you’re using stacey, send me an [email][].
 - <http://somethingsplendid.com>
 - <http://stuartgedd.es>
 - <http://oslodavis.com>
+- <http://xxx.aestheticallyloyal.com>
+- <http://ab-c.com.au>
 
 —
 
 <ul>
+  <li><em><a href="http://58-12.org">http://58-12.org</a></em></li>
   <li><a href="http://kubicki.org">http://kubicki.org</a></li>
   <li><em><a href="http://uriahgray.com">http://uriahgray.com</a></em></li>
   <li><a href="http://infomongo.com">http://infomongo.com</a></li>
@@ -323,7 +326,7 @@ If you’re using stacey, send me an [email][].
 <li><em><a href="http://anamariavelasco.com">http://anamariavelasco.com</a></em></li> 
 <li><a href="http://simonsummerfieldjolly.com">http://simonsummerfieldjolly.com</a></li> 
 <li><a href="http://ukkepurk.nl">http://ukkepurk.nl</a></li> 
-<li><a href="http://crisman.scripts.mit.edu">http://crisman.scripts.mit.edu</a></li> 
+<li><a href="http://jonathancrisman.com">http://jonathancrisman.com</a></li> 
 <li><a href="http://vadimkukin.com">http://vadimkukin.com</a></li> 
 <li><a href="http://seandaviddennis.com">http://seandaviddennis.com</a></li> 
 <li><a href="http://savicko.lt">http://savicko.lt</a></li> 
