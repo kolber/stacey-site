@@ -20,6 +20,37 @@ If you’re using stacey, send me an [email][].
 —
 
 <ul>
+  <li><em><a href="http://designavgang.no">http://designavgang.no</a></em></li>
+  <li><em><a href="http://inah-shin.com">http://inah-shin.com</a></em></li>
+  <li><a href="http://davidhall.co">http://davidhall.co</a></li>
+  <li><em><a href="http://followmedesign.com">http://followmedesign.com</a></em></li>
+  <li><a href="http://hurluber.lu">http://hurluber.lu</a></li>
+  <li><a href="http://alex-zahn.de">http://alex-zahn.de</a></li>
+  <li><em><a href="http://futurefolkdesign.co.uk">http://futurefolkdesign.co.uk</a></em></li>
+  <li><a href="http://jellyrainbow.com">http://jellyrainbow.com</a></li>
+  <li><em><a href="http://emilyfishpool.com">http://emilyfishpool.com</a></em></li>
+  <li><a href="http://fiachmachale.com">http://fiachmachale.com</a></li>
+  <li><em><a href="http://garypeters.info">http://garypeters.info</a></em></li>
+  <li><em><a href="http://ixley.com">http://ixley.com</a></em></li>
+  <li><em><a href="http://nickdominguez.com">http://nickdominguez.com</a></em></li>
+  <li><a href="http://herzlaub.de">http://herzlaub.de</a></li>
+  <li><em><a href="http://annetweed.com">http://annetweed.com</a></em></li>
+  <li><em><a href="http://kara.villaseran.com">http://kara.villaseran.com</a></em></li>
+  <li><em><a href="http://rom.villaseran.com">http://rom.villaseran.com</a></em></li>
+  <li><a href="http://owendaily.net">http://owendaily.net</a></li>
+  <li><em><a href="http://espressofilm.de">http://espressofilm.de</a></em></li>
+  <li><a href="http://keij-grafisch.nl">http://keij-grafisch.nl</a></li>
+  <li><em><a href="http://grahamvdr.co.za">http://grahamvdr.co.za</a></em></li>
+  <li><em><a href="http://laurindofeliciano.com">http://laurindofeliciano.com</a></em></li>
+  <li><em><a href="http://designshirt.eu">http://designshirt.eu</a></em></li>
+  <li><em><a href="http://stolendesign.net">http://stolendesign.net</a></em></li>
+  <li><a href="http://kuboaa.org.uk">http://kuboaa.org.uk</a></li>
+  <li><a href="http://drstrangelaugh.laosan1989.com">http://drstrangelaugh.laosan1989.com</a></li>
+  <li><a href="http://sayssimonmusic.com">http://sayssimonmusic.com</a></li>
+  <li><a href="http://garypeters.info">http://garypeters.info</a></li>
+  <li><a href="http://tinkabechert.com">http://tinkabechert.com</a></li>
+  <li><a href="http://freduggla.net">http://freduggla.net</a></li>
+  <li><em><a href="http://danielcyoung.com">http://danielcyoung.com</a></em></li>
   <li><em><a href="http://58-12.org">http://58-12.org</a></em></li>
   <li><a href="http://kubicki.org">http://kubicki.org</a></li>
   <li><em><a href="http://uriahgray.com">http://uriahgray.com</a></em></li>
@@ -829,7 +860,6 @@ If you’re using stacey, send me an [email][].
 <li><a href="http://samirhanna.se">http://samirhanna.se</a></li> 
 <li><a href="http://musement.sg">http://musement.sg</a></li> 
 <li><a href="http://jaderubini.net">http://jaderubini.net</a></li> 
-<li><a href="http://codcomm.com">http://codcomm.com</a></li> 
 <li><a href="http://pbastien.com">http://pbastien.com</a></li> 
 <li><em><a href="http://norbs.com">http://norbs.com</a></em></li> 
 <li><a href="http://pageinc.ca">http://pageinc.ca</a></li> 
