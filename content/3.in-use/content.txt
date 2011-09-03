@@ -20,9 +20,43 @@ If you’re using stacey, send me an [email][].
 —
 
 <ul>
+  <li><em><a href="http://simonskreddernes.com">http://simonskreddernes.com</a></em></li>
+  <li><em><a href="http://elwynmurray.com">http://elwynmurray.com</a></em></li>
+  <li><em><a href="http://makingbelieve.co.uk/2011/">http://makingbelieve.co.uk/2011/</a></em></li>
+  <li><a href="http://oscarbox.org/lukecollins">http://oscarbox.org/lukecollins</a></li>
+  <li><em><a href="http://hereishistory.com">http://hereishistory.com</a></em></li>
+  <li><a href="http://hamburgerfonts.net">http://hamburgerfonts.net</a></li>
+  <li><em><a href="http://joelhans.com">http://joelhans.com</a></em></li>
+  <li><a href="http://anthonyhamboussi.com">http://anthonyhamboussi.com</a></li>
+  <li><em><a href="http://postfl.com">http://postfl.com</a></em></li>
+  <li><a href="http://luciaotero.com.ar">http://luciaotero.com.ar</a></li>
+  <li><a href="http://photoshumi.com/portfolio/">http://photoshumi.com/portfolio/</a></li>
+  <li><em><a href="http://schekalla.de">http://schekalla.de</a></em></li>
+  <li><a href="http://novoforyou.ru">http://novoforyou.ru</a></li>
+  <li><a href="http://ciudadconvacas.com">http://ciudadconvacas.com</a></li>
+  <li><em><a href="http://overcommaunder.com">http://overcommaunder.com</a></em></li>
+  <li><a href="http://molotok.ca">http://molotok.ca</a></li>
+  <li><a href="http://lorinmitchell.com">http://lorinmitchell.com</a></li>
+  <li><a href="http://jmrecuerda.com">http://jmrecuerda.com</a></li>
+  <li><a href="http://ignacioiturrioz.com">http://ignacioiturrioz.com</a></li>
+  <li><a href="http://matthew-barton.com">http://matthew-barton.com</a></li>
+  <li><em><a href="http://typois.co.uk">http://typois.co.uk</a></em></li>
+  <li><a href="http://philipcampbelldesign.com.au">http://philipcampbelldesign.com.au</a></li>
+  <li><em><a href="http://richcousins.co.uk">http://richcousins.co.uk</a></em></li>
+  <li><a href="http://graphiccommunicationdesign.info">http://graphiccommunicationdesign.info</a></li>
+  <li><em><a href="http://alexandredo.com">http://alexandredo.com</a></em></li>
+  <li><a href="http://alexclatworthy.com">http://alexclatworthy.com</a></li>
+  <li><a href="http://studiosedelies.com">http://studiosedelies.com</a></li>
+  <li><em><a href="http://samlu.ca">http://samlu.ca</a></em></li>
+  <li><a href="http://bernotas-art.com">http://bernotas-art.com</a></li>
+  <li><a href="http://bogna.art.pl">http://bogna.art.pl</a></li>
+  <li><a href="http://yobertyounan.nl">http://yobertyounan.nl</a></li>
+  <li><a href="http://www.jopelines.com/portafolio/">http://www.jopelines.com/portafolio/</a></li>
+  <li><a href="http://aboutus.e5d.net.br">http://aboutus.e5d.net.br</a></li>
+  <li><a href="http://patrick-conner.com">http://patrick-conner.com</a></li>
   <li><em><a href="http://designavgang.no">http://designavgang.no</a></em></li>
   <li><em><a href="http://inah-shin.com">http://inah-shin.com</a></em></li>
-  <li><a href="http://davidhall.co">http://davidhall.co</a></li>
+  <li><a href="http://davidhall.me">http://davidhall.me</a></li>
   <li><em><a href="http://followmedesign.com">http://followmedesign.com</a></em></li>
   <li><a href="http://hurluber.lu">http://hurluber.lu</a></li>
   <li><a href="http://alex-zahn.de">http://alex-zahn.de</a></li>
@@ -136,7 +170,6 @@ If you’re using stacey, send me an [email][].
   <li><a href="http://johnslep.net">http://johnslep.net</a></li>
   <li><a href="http://lisaly.com">http://lisaly.com</a></li>
   <li><a href="http://manuelasteinemann.de">http://manuelasteinemann.de</a></li>
-  <li><a href="http://mjhoy.name">http://mjhoy.name</a></li>
   <li><a href="http://nicolation.net">http://nicolation.net</a></li>
   <li><em><a href="http://takeshiishibashi.com">http://takeshiishibashi.com</a></em></li>
   <li><a href="http://viktorsjodin.com">http://viktorsjodin.com</a></li>
