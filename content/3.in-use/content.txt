@@ -8,7 +8,6 @@ Sites running on stacey.
 If you’re using stacey, send me an [email][].
 
 - <http://aestheticallyloyal.com>
-- <http://tinanded.com.au>
 - <http://chaseandgalley.com>
 - <http://stuartgedd.es>
 - <http://oslodavis.com>
@@ -18,6 +17,51 @@ If you’re using stacey, send me an [email][].
 —
 
 <ul>
+  <li><em><a href="http://victor-lebeau.com/">http://victor-lebeau.com</a></em></li>
+  <li><a href="http://josblom.nu">http://josblom.nu</a></li>
+  <li><a href="http://www.craigbarrow.co.uk">http://www.craigbarrow.co.uk</a></li>
+  <li><a href="http://kevinkuijpers.com">http://kevinkuijpers.com</a></li>
+  <li><a href="http://brookhsu.com">http://brookhsu.com</a></li>
+  <li><a href="http://blog.faitnoise.ch">http://blog.faitnoise.ch</li>
+  <li><a href="http://telefonistas.org">http://telefonistas.org</a></li>
+  <li><a href="http://eztigma.tk">http://eztigma.tk</a></li>
+  <li><a href="http://marinamg.com">http://marinamg.com</a></li>
+  <li><a href="http://andre-sier.com">http://andre-sier.co</a></li>
+  <li><a href="http://ezekiel.cc">http://ezekiel.cc</a></li>
+  <li><a href="http://fillmember.net">http://fillmember.net</a></li>
+  <li><a href="http://crawlingout.eu">http://crawlingout.eu</a></li>
+  <li><a href="http://bfa14.se">http://bfa14.se</a></li>
+  <li><a href="http://sarahwalch.com">http://sarahwalch.com</a></li>
+  <li><a href="http://benedikt-steiner.ch">http://benedikt-steiner.ch</a></li>
+  <li><a href="http://stijnkuipers.eu">http://stijnkuipers.eu</a></li>
+  <li><a href="http://eriklaurikulo.se">http://eriklaurikulo.se</a></li>
+  <li><a href="http://alessandrorabitti.eu/portfolio">http://alessandrorabitti.eu/portfolio</a></li>
+  <li><a href="http://smiletous.com">http://smiletous.com</a></li>
+  <li><a href="http://eztigma.tk">http://eztigma.tk</a></li>
+  <li><a href="http://albidus.dk">http://albidus.dk</a></li>
+  <li><a href="http://katrinfuerst.de">http://katrinfuerst.de</a></li>
+  <li><a href="http://minus-zero.it">http://minus-zero.it</a></li>
+  <li><a href="http://grassecurite.fr">http://grassecurite.fr</a></li>
+  <li><a href="http://olivergrieder.ch">http://olivergrieder.ch</a></li>
+  <li><a href="http://showcase.thomaspetitjean.com">http://showcase.thomaspetitjean.com</a></li>
+  <li><a href="http://recettepancake.com">http://recettepancake.com</a></li>
+  <li><a href="http://www.dawn.ul.ie">http://www.dawn.ul.ie</a></li>
+  <li><a href="http://xeniafink.de">http://xeniafink.de</a></li>
+  <li><a href="http://cangrejeras.net">http://cangrejeras.net</a></li>
+  <li><a href="http://michaelsemeniuk.com">http://michaelsemeniuk.com</a></li>
+  <li><a href="http://hironobusato.com">http://hironobusato.com</a></li>
+  <li><a href="http://liviocasanova.ch">http://liviocasanova.ch</a></li>
+  <li><a href="http://fredericlouis.be">http://fredericlouis.be</a</li>
+  <li><a href="http://collectif-flu.com">http://collectif-flu.com</a></li>
+  <li><em><a href="http://italocalvino.it">http://italocalvino.it</a></em></li>
+  <li><a href="http://polmontserrat.com">http://polmontserrat.com</a></li>
+  <li><a href="http://collectif-flu.com">http://collectif-flu.com</a></li>
+  <li><a href="http://suselichtenberger.com">http://suselichtenberger.com</a></li>
+  <li><em><a href="http://homofaber.pl">http://homofaber.pl</a></em></li>
+  <li><a href="http://mikelazpiroz.com">http://mikelazpiroz.com</a></li>
+  <li><a href="http://maximalism.se">http://maximalism.se</a></li>
+  <li><a href="http://fingerhut.me">http://fingerhut.me</a></li>
+
   <li><a href="http://edersaos.com">http://edersaos.com</a></li>
   <li><a href="http://nulloy.com">http://nulloy.com</a></li>
   <li><a href="http://forsythdesign.ca">http://forsythdesign.ca</a></li>
